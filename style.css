@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.section {
+    background-image: url(images/avuter2.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.darkover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+
+
+.firstbrand {
+    color: #ffffff;
+    font-size: 39px;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+    size: border;
+    font-weight: 700;
+}
+
+.firstbrand:hover {
+        color: rgb(1, 175, 255);
+        text-decoration: none;
+        transition: 0.4s;
+}
+
+ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    padding: 1.5rem 1.5rem 0 !important;
+    font-weight: 500 !important;
+}
+
+.clr {
+    clear: both;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+hr {
+    background-color: white;
+    height: 1px !important;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    font-size: 68px;
+    padding-bottom: 40px;
+    transition: .3s;
+}
+
+.header h3 {
+    font-size: 35px;
+}
+
+.mybtn {
+    margin: 15px;
+    padding: 10px;
+}
+
+
+.own{
+    font-size: 40px;
+    float: right;
+    padding-left: 20px;
+    color: white;
+}
+
+.own:hover {
+    color: rgb(1, 175, 255);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.mynav ul li a:hover {
+    color: rgb(1, 175, 255);
+    text-decoration: none;
+    transition: 0.4s;
+}

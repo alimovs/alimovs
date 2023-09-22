@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1890ff;
+}
+
+a, .btn {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+i, h3{
+    display: block;
+    color: white;
+    font-size: 25px;
+}
+
+i{
+    float: left;
+    width: 2%;
+    position: absolute;
+    top: 82px;
+    left: 75px;
+}
+
+h3 {
+    float: right;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+input {
+    outline: none;
+    border:0;
+    border: 1px solid rgba(66, 66, 66, 0.637);
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    color: #2c2c2c;
+}
+
+.image {
+    background-image: url(../images/carousel.png);
+    background-size: cover;
+    width: 700px;
+    height: 580px;
+    position: absolute;
+    top: 140px;
+    left: 90px;
+
+}
+
+label {
+    font-size: 17px;
+}
+
+h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+h5 a {
+    color: rgb(43, 231, 43);
+    text-decoration: none;
+}
+
+.login {
+    background-color: white;
+    float: right;
+    margin: 100px 90px 20px ;
+    height: 680px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: rgb(11, 206, 43);
+    letter-spacing: 3px;
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    border-image: initial;
+    height: 54px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid rgb(11, 206, 43);
+    color: rgb(11, 206, 43);
+    transition: all .4s ease 0s;
+}
+
+.name {
+    float: left;
+    width: 49%;
+}
+
+.lastName {
+    float: right;
+    width: 49%;
+}
+
